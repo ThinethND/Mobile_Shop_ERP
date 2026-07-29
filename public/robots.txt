@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /assets/
+
+Disallow: /admin/
+Disallow: /dashboard
+Disallow: /login
+Disallow: /register
+Disallow: /password
+Disallow: /cart
+Disallow: /checkout
+Disallow: /payment
+Disallow: /api/
+Disallow: /ai/
+
+Sitemap: https://dezestore.com/sitemap.xml

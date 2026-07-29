@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+
+    @vite('resources/css/app.css')
+
+    <style>
+        .shape {
+            position: absolute;
+            opacity: 0.9;
+        }
+        .shape-yellow {
+            width: 120px;
+            height: 120px;
+            background: #FDE68A;
+            top: 60px;
+            left: 50%;
+            transform: translateX(-200px) rotate(45deg);
+            clip-path: polygon(0 0, 100% 0, 100% 100%);
+            border-radius: 12px;
+        }
+        .shape-blue {
+            width: 70px;
+            height: 70px;
+            background: #BFDBFE;
+            bottom: 140px;
+            left: 200px;
+            transform: rotate(45deg);
+            border-radius: 10px;
+        }
+        .shape-dark {
+            width: 150px;
+            height: 30px;
+            background: #111827;
+            top: 200px;
+            right: 180px;
+            transform: rotate(-40deg);
+            border-radius: 6px;
+        }
+        .big-404 {
+            font-size: 32vw;
+            font-weight: 800;
+              color: rgba(56, 189, 248, 0.04);
+            position: absolute;
+            bottom: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            pointer-events: none;
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body class="bg-white flex flex-col items-center justify-center min-h-screen overflow-hidden relative">
+
+
+
+    <!-- Main Content -->
+    <div class="text-center z-10 px-4">
+        <h1 class="text-2xl sm:text-3xl font-semibold text-gray-900 mb-2">
+            Something’s missing
+        </h1>
+
+        <p class="text-gray-500 mb-6 text-base sm:text-lg">
+            The page is missing or you assembled the link incorrectly.
+        </p>
+
+        <a href="{{ url('/') }}"
+            class="inline-block bg-black text-white text-base font-medium px-6 py-3 rounded-full shadow hover:bg-gray-800 transition">
+            Go back home
+        </a>
+    </div>
+
+    <!-- Huge Background Number -->
+    <div class="big-404">404</div>
+
+</body>
+</html>

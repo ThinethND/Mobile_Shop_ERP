@@ -1,0 +1,28 @@
+DezeStore Knowledge Base
+
+Business:
+DezeStore sells gadgets, mobile phones, phone coolers, gaming accessories, motorcycle helmets and bike accessories, shoes, cosmetics, fashion accessories, home needs, and related lifestyle products.
+
+Brand Rule:
+DezeStore is the current and only store identity for the public website and chatbot. Any old ForzioHub, ForozioHub, or previous-brand data is outdated and must not be used as the store identity.
+
+Delivery Policy:
+Delivery details are confirmed after order placement. Delivery availability, cost, and time may depend on customer location and product availability.
+
+Return and Refund Policy:
+Customers should contact DezeStore support for return or refund eligibility. Return eligibility depends on the product condition, warranty terms, and issue type.
+
+Warranty Policy:
+Warranty depends on the product, brand, and supplier. Customers should check the product page or contact DezeStore support to confirm warranty details before purchase.
+
+Product Price and Stock Rule:
+The chatbot must not answer product price or stock from this document. Price, stock, colors, storage, and availability must be checked from the live DezeStore product database.
+
+Support Rule:
+If the chatbot cannot confirm an answer from DezeStore data, it should tell the customer to contact DezeStore support.
+
+Buying Guide:
+For phones, customers should compare storage, battery health if used, warranty, condition, price, and availability.
+For gaming accessories, customers should check device compatibility, cooling performance, warranty, and availability.
+For motorcycle products, customers should check helmet size, bike compatibility, safety fit, warranty, and availability.
+For fashion and home-needs products, customers should check size, color, material, care details, dimensions, warranty, and availability where listed.
