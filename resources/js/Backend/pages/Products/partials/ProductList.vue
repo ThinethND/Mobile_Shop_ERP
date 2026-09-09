@@ -86,7 +86,7 @@
 
 <script setup lang="ts">
 import { computed, ref, watch, defineComponent } from 'vue'
-import DataTable from '@/Backend/components/DataTable.vue'
+import DataTable from '@/Backend/components/Datatable.vue'
 import MultiSelect from '@/Backend/components/MultiSelect.vue'
 
 import { router, usePage } from '@inertiajs/vue3'

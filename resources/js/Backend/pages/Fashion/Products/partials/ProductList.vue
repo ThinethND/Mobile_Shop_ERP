@@ -80,7 +80,7 @@
 
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
-import DataTable from '@/Backend/components/DataTable.vue'
+import DataTable from '@/Backend/components/Datatable.vue'
 import { router } from '@inertiajs/vue3'
 import { route } from 'ziggy-js'
 
